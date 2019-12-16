@@ -781,6 +781,7 @@ id cancel_action
 id center
 id center_horizontal
 id center_vertical
+id chart
 id checkbox
 id chronometer
 id clip_horizontal

@@ -1,7 +1,7 @@
 <component name="libraryTable">
   <library name="Gradle: __local_aars__:E.\Personal\Project\tlogger\tlogger_0917\app\libs\opencsv-3.8.jar:unspecified@jar">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/app/libs/opencsv-3.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../tlogger/tlogger_0917/app/libs/opencsv-3.8.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
