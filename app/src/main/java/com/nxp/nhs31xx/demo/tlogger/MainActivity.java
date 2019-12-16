@@ -248,7 +248,7 @@ public class MainActivity extends FragmentActivity {
             vib.vibrate(duration, -1);
             showMessage(String.format(getString(R.string.tagFound_message), lastUsedTagId));
             isConnected = true;
-            startTimers(true, false, false);
+            startTimers(false, false, true);
         }
     }
 

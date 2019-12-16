@@ -1,8 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Personal\\Project\\tlogger\\tlogger_0917\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\Personal\\Project\\tlogger_git\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "E:\\Personal\\Project\\tlogger_git\\app\\src\\main\\res\\values\\fonts.xml",
+                    "from": {
+                        "startLines": "5,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "261,128",
+                        "endColumns": "70,64",
+                        "endOffsets": "327,188"
+                    },
+                    "to": {
+                        "startLines": "359,360",
+                        "startColumns": "4,4",
+                        "startOffsets": "24413,24484",
+                        "endColumns": "70,64",
+                        "endOffsets": "24479,24544"
+                    }
+                },
                 {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\2c6c127e14e26530c448f7d8c679e585\\res\\values\\values.xml",
                     "from": {
@@ -23,42 +40,6 @@
                     }
                 },
                 {
-                    "source": "E:\\Personal\\Project\\tlogger\\tlogger_0917\\app\\src\\main\\res\\values\\fonts.xml",
-                    "from": {
-                        "startLines": "5,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "261,128",
-                        "endColumns": "70,64",
-                        "endOffsets": "327,188"
-                    },
-                    "to": {
-                        "startLines": "359,360",
-                        "startColumns": "4,4",
-                        "startOffsets": "24413,24484",
-                        "endColumns": "70,64",
-                        "endOffsets": "24479,24544"
-                    }
-                },
-                {
-                    "source": "E:\\Personal\\Project\\tlogger\\tlogger_0917\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "2,27,10,35,18",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "17,1258,420,1620,805",
-                        "endLines": "8,33,16,40,25",
-                        "endColumns": "12,12,12,12,12",
-                        "endOffsets": "414,1614,799,1936,1252"
-                    },
-                    "to": {
-                        "startLines": "447,1500,1507,1782,2004",
-                        "startColumns": "4,4,4,4,4",
-                        "startOffsets": "31989,98894,99255,120120,136045",
-                        "endLines": "453,1506,1513,1787,2011",
-                        "endColumns": "12,12,12,12,12",
-                        "endOffsets": "32386,99250,99634,120436,136492"
-                    }
-                },
-                {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-2\\files-2.1\\1d9f201b3a5929d7b5c827afefa9bd28\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10",
@@ -76,7 +57,7 @@
                     }
                 },
                 {
-                    "source": "E:\\Personal\\Project\\tlogger\\tlogger_0917\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "E:\\Personal\\Project\\tlogger_git\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -112,7 +93,7 @@
                     }
                 },
                 {
-                    "source": "E:\\Personal\\Project\\tlogger\\tlogger_0917\\app\\src\\main\\res\\values\\color.xml",
+                    "source": "E:\\Personal\\Project\\tlogger_git\\app\\src\\main\\res\\values\\color.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
@@ -182,7 +163,26 @@
                     }
                 },
                 {
-                    "source": "E:\\Personal\\Project\\tlogger\\tlogger_0917\\app\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\Personal\\Project\\tlogger_git\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "2,27,10,35,18",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "17,1258,420,1620,805",
+                        "endLines": "8,33,16,40,25",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "414,1614,799,1936,1252"
+                    },
+                    "to": {
+                        "startLines": "447,1500,1507,1782,2004",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "31989,98894,99255,120120,136045",
+                        "endLines": "453,1506,1513,1787,2011",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "32386,99250,99634,120436,136492"
+                    }
+                },
+                {
+                    "source": "E:\\Personal\\Project\\tlogger_git\\app\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "3,38,39,40,41,42,43,44,45,46,47,9,48,11,49,50,19,51,52,53,20,21,54,22,55,56,23,24,57,58,59,60,12,61,25,62,16,26,63,27,64,65,66,28,29,67,68,30,69,70,71,31,72,73,74,75,76,77,78,79,80,32,81,82,83,96,97,84,85,86,87,88,89,90,91,92,93,94,95,98,10,33,99,100,101,102,103,104,105,106,107,108,34,109,35,110,111,36,112,17,13,113,114,115,116,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

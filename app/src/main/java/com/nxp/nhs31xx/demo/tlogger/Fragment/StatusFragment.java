@@ -22,6 +22,7 @@ import android.widget.Button;
 import android.widget.Switch;
 import android.widget.TextView;
 
+import com.github.mikephil.charting.charts.LineChart;
 import com.nxp.nhs31xx.demo.tlogger.MainActivity;
 import com.nxp.nhs31xx.demo.tlogger.Message.Response.GetConfigResponse;
 import com.nxp.nhs31xx.demo.tlogger.Message.Response.MeasureTemperatureResponse;
@@ -33,6 +34,7 @@ import java.util.Locale;
 
 public class StatusFragment extends Fragment {
 
+    private LineChart chart;
     public StatusFragment() {
         // Required empty public constructor
     }
@@ -41,11 +43,13 @@ public class StatusFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_status, container, false);
+
     }
 
     @Override

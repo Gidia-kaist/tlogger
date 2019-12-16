@@ -89,11 +89,13 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 26 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Gradle: __local_aars__:E.\Personal\Project\tlogger\tlogger_0917\app\libs\GraphView-4.2.1.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="Gradle: __local_aars__:E.\Personal\Project\tlogger\tlogger_0917\app\libs\opencsv-3.8.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:E.\Personal\Project\tlogger_git\app\libs\GraphView-4.2.1.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:E.\Personal\Project\tlogger_git\app\libs\opencsv-3.8.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="Gradle: __local_aars__:E.\Personal\Project\tlogger_git\app\libs\poi-3.17.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:support-annotations:26.1.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.lifecycle:common:1.0.0@jar" level="project" />
     <orderEntry type="library" name="Gradle: android.arch.core:common:1.0.0@jar" level="project" />
+    <orderEntry type="library" name="Gradle: com.github.PhilJay:MPAndroidChart:v3.0.2@jar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:design:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:appcompat-v7:26.1.0@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.android.support:transition:26.1.0@aar" level="project" />
