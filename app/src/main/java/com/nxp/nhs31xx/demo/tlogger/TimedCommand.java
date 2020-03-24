@@ -14,6 +14,7 @@ package com.nxp.nhs31xx.demo.tlogger;
 
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 
 import java.util.TimerTask;
 
@@ -22,6 +23,7 @@ import static com.nxp.nhs31xx.demo.tlogger.Message.Message.Id;
 class TimedCommand extends TimerTask {
     private final Handler guiHandler;
     private final Purpose purpose;
+    int counter = 0;
 
     TimedCommand(Handler handler, Purpose purpose) {
         super();
@@ -47,6 +49,9 @@ class TimedCommand extends TimerTask {
                 break;
 
             case LIVE:
+                Log.e("1번태스크카운터:", String.valueOf(counter));
+                counter++;
+                //Log.d("test_LIVE", "ACTIVE");
                 response = Message.obtain();
                 response.obj = Id.MEASURETEMPERATURE;
                 guiHandler.sendMessage(response);

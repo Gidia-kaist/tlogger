@@ -67,7 +67,7 @@ public class GraphActivity extends AppCompatActivity {
 
         YAxis leftAxis = chart.getAxisLeft();
         leftAxis.setTextColor(Color.BLACK);
-        leftAxis.setAxisMaximum(50f);
+        leftAxis.setAxisMaximum(100f);
         leftAxis.setAxisMinimum(0f);
         leftAxis.setDrawGridLines(true);
 

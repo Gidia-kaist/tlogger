@@ -42,6 +42,7 @@ public class AboutFragment extends Fragment {
     private PopupWindow popupWindow = null;
     private String sw = "-";
     private String api = "-";
+    Button mLoginButton;
 
     public AboutFragment() {
     }
@@ -79,8 +80,12 @@ public class AboutFragment extends Fragment {
         contactTextView.setOnClickListener(onClickListener);
         view.setOnClickListener(onClickListener);
 
+
+
+
         return view;
     }
+
 
     @Override
     public void onResume() {
@@ -249,7 +254,7 @@ public class AboutFragment extends Fragment {
         if (view != null) {
             textView = view.findViewById(R.id.versionTextView);
             if (textView != null) {
-                textView.setText(String.format(getString(R.string.fullVersionString), this.getString(R.string.version), sw, api));
+
             }
         }
     }

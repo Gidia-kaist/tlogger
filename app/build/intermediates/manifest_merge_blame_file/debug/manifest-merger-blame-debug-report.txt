@@ -1,0 +1,114 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nxp.nhs31xx.demo.tlogger"
+4    android:versionCode="617394"
+5    android:versionName="Eris" >
+6
+7    <uses-sdk
+7-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:6:5-16
+8        android:minSdkVersion="21"
+8-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:6:5-16
+9        android:targetSdkVersion="26" />
+9-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:6:5-16
+10
+11    <uses-feature
+11-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:8:5-10:34
+12        android:name="android.hardware.nfc"
+12-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:9:9-44
+13        android:required="true" />
+13-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:10:9-32
+14
+15    <uses-permission android:name="android.permission.NFC" />
+15-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:12:5-61
+15-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:12:22-59
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:13:5-65
+16-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:13:22-63
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:14:5-80
+17-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:14:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:15:5-67
+18-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:15:22-64
+19
+20    <!--
+21        versionName - versionCode + increment. versionCode combines MSG_API_MAJOR_VERSION and SW_MAJOR_VERSION NUMBER.
+22        See MainActivity.java
+23        - Amalthea - 315140/315141/315142/315143/315144 (v3/v4/v5/v5/v5)
+24        - Balios - 415525/415526/415527 (v6/v6/v7)
+25        - Cadmus - 516270/516271/516272 (v8/v8/v8)
+26        - Dindymene - 516273/516274/516275/516276/516277/516278/516279 (v9/v10/v11/v12/v13/v14/v15)
+27        - Eris - 617390/617391/617392/617393/617394 (v16/v16/v16/v17/v17)
+28
+29        Ensure that the value for android:versionName and android:versionCode below is set equal to
+30        defaultConfig > versionName and versionCode in build.gradle.
+31        Check the version string in strings.xml
+32    -->
+33    <application
+33-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:30:5-54:19
+34        android:allowBackup="true"
+34-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:31:9-35
+35        android:debuggable="true"
+36        android:icon="@mipmap/mipmap"
+36-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:32:9-38
+37        android:label="Auto calculation"
+37-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:33:9-41
+38        android:supportsRtl="true"
+38-->[kr.co.mediex.myhealth-1.0.2.aar] C:\Users\user\.gradle\caches\transforms-2\files-2.1\43a05fa7be78c71c47dcb4d54f85cccb\kr.co.mediex.myhealth-1.0.2\AndroidManifest.xml:13:9-35
+39        android:theme="@style/AppTheme"
+39-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:34:9-40
+40        android:versionCode="617394"
+40-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:35:9-37
+41        android:versionName="Eris" >
+41-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:36:9-35
+42        <activity
+42-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:37:9-47:20
+43            android:name="com.nxp.nhs31xx.demo.tlogger.MainActivity"
+43-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:38:13-41
+44            android:alwaysRetainTaskState="true"
+44-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:39:13-49
+45            android:label="@string/app_name"
+45-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:40:13-45
+46            android:launchMode="singleInstance" >
+46-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:41:13-48
+47            <intent-filter>
+47-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:42:13-46:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:43:17-68
+48-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:43:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:44:17-76
+50-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:44:27-74
+51
+52                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+52-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:45:17-76
+52-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:45:25-74
+53            </intent-filter>
+54        </activity>
+55        <activity android:name="com.nxp.nhs31xx.demo.tlogger.StartActivity" >
+55-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:48:9-51:20
+55-->E:\Personal\Project\tlogger_git\app\src\main\AndroidManifest.xml:48:19-48
+56        </activity>
+57        <activity
+57-->[kr.co.mediex.myhealth-1.0.2.aar] C:\Users\user\.gradle\caches\transforms-2\files-2.1\43a05fa7be78c71c47dcb4d54f85cccb\kr.co.mediex.myhealth-1.0.2\AndroidManifest.xml:14:9-16:58
+58            android:name="kr.co.mediex.myhealth.v1.view.MyHealthWebActivity"
+58-->[kr.co.mediex.myhealth-1.0.2.aar] C:\Users\user\.gradle\caches\transforms-2\files-2.1\43a05fa7be78c71c47dcb4d54f85cccb\kr.co.mediex.myhealth-1.0.2\AndroidManifest.xml:15:13-77
+59            android:windowSoftInputMode="adjustResize" />
+59-->[kr.co.mediex.myhealth-1.0.2.aar] C:\Users\user\.gradle\caches\transforms-2\files-2.1\43a05fa7be78c71c47dcb4d54f85cccb\kr.co.mediex.myhealth-1.0.2\AndroidManifest.xml:16:13-55
+60
+61        <meta-data
+61-->[com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:26:9-28:38
+62            android:name="android.support.VERSION"
+62-->[com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:27:13-51
+63            android:value="26.1.0" />
+63-->[com.android.support:design:26.1.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\fc0320cd13bf10cf6d7c97e5692578aa\design-26.1.0\AndroidManifest.xml:28:13-35
+64        <meta-data
+64-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+65            android:name="android.arch.lifecycle.VERSION"
+65-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:26:13-58
+66            android:value="27.0.0-SNAPSHOT" />
+66-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\4464663fb769105e8b28960e2589148c\runtime-1.0.0\AndroidManifest.xml:27:13-44
+67    </application>
+68
+69</manifest>

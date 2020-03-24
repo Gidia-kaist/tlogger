@@ -41,6 +41,7 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
 import android.widget.TextView;
@@ -90,13 +91,15 @@ public class MainActivity extends FragmentActivity {
     public static boolean swipeHelpGiven = false;
     public static boolean nfcUnlocked = false;
     public static boolean isConnected = false;
+
+    private String cat = "cat_1";
     public String lastUsedTagId = null;
     public GetConfigResponse lastGetConfigResponse = null;
     public GetVersionResponse lastGetVersionResponse = null;
     public MeasureTemperatureResponse lastMeasureTemperatureResponse = null;
     public LineGraphSeries<DataPoint> loggedDataLineGraphSeries = null;
     private boolean goingToIdle = false;
-
+    Button ii;
     private GetMeasurementsResponse lastGetMeasurementsResponse = null;
     private Handler handler;
     private NfcAdapter nfcAdapter = null;
@@ -111,6 +114,8 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         MyPagerAdapter myPagerAdapter = new MyPagerAdapter(getSupportFragmentManager(), this);
         ViewPager viewPager = findViewById(R.id.pager);

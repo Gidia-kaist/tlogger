@@ -1,4 +1,5 @@
 <FrameLayout style="@style/AppTheme"
+    android:visibility="gone"
              xmlns:android="http://schemas.android.com/apk/res/android"
              xmlns:tools="http://schemas.android.com/tools"
              tools:context="com.nxp.nhs31xx.demo.tlogger.Fragment.DataFragment">
